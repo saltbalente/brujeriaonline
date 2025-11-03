@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Sparkle } from '@phosphor-icons/react'
 
-const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=%2B18392988226&text=Hola%2C+necesito+ayuda"
+const WHATSAPP_URL = "https://wa.me/19142090428?text=Hola%2C+necesito+ayuda"
 
 export default function HeroSection() {
     return (

@@ -14,7 +14,7 @@ const keywords = [
 ]
 
 export default function KeywordSlider() {
-  const whatsappUrl = 'https://api.whatsapp.com/send/?phone=%2B18392988226&text=Hola%2C+necesito+ayuda'
+  const whatsappUrl = 'https://wa.me/19142090428?text=Hola%2C+necesito+ayuda'
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm border-b border-primary/20 overflow-hidden">
