@@ -3,19 +3,19 @@ import { Heart, Shield, TrendUp, X } from '@phosphor-icons/react'
 const problems = [
     {
         icon: Heart,
-        text: "¿Tu pareja se alejó sin razón aparente?"
+        text: "¿Tu pareja te dejó de la noche a la mañana sin explicación?"
     },
     {
         icon: X,
-        text: "¿Sientes que alguien ha puesto barreras entre ustedes?"
+        text: "¿Sientes que fuerzas oscuras están destruyendo tu relación?"
     },
     {
         icon: TrendUp,
-        text: "¿La suerte no te acompaña en el amor?"
+        text: "¿Has intentado todo y nada funciona para recuperar su amor?"
     },
     {
         icon: Shield,
-        text: "¿Necesitas protección espiritual para tu relación?"
+        text: "¿Alguien está haciendo brujería contra ti o tu pareja?"
     }
 ]
 
@@ -25,10 +25,10 @@ export default function ProblemsSection() {
             <div className="max-w-7xl mx-auto px-4">
                 <div className="text-center mb-12">
                     <h2 className="section-title text-3xl md:text-5xl mb-4 text-foreground">
-                        ¿Te Sientes Identificado?
+                        ¿Esto Te Está Pasando A Ti?
                     </h2>
-                    <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-                        No estás solo. Miles de personas han encontrado respuestas y soluciones con la ayuda de curanderos espirituales expertos
+                    <p className="text-lg md:text-xl text-secondary font-semibold max-w-3xl mx-auto">
+                        Cada día que pasa sin actuar, más se aleja tu ser amado. NO ESPERES MÁS
                     </p>
                 </div>
                 
@@ -51,12 +51,12 @@ export default function ProblemsSection() {
                     })}
                 </div>
                 
-                <div className="text-center mt-12">
-                    <p className="text-xl text-foreground font-medium font-serif">
-                        Si respondiste "Sí" a alguna pregunta, estás en el lugar correcto
+                <div className="text-center mt-12 bg-accent/10 border-2 border-accent p-8 rounded-lg max-w-3xl mx-auto">
+                    <p className="text-2xl text-foreground font-bold font-serif mb-2">
+                        ⚠️ Si respondiste "Sí" a cualquiera, ACTÚA AHORA
                     </p>
-                    <p className="text-lg text-muted-foreground mt-2 font-serif">
-                        Maestros espiritistas con décadas de experiencia pueden ayudarte
+                    <p className="text-lg text-accent mt-2 font-semibold font-serif">
+                        Maestros con 20+ años de experiencia esperan tu llamado
                     </p>
                 </div>
             </div>

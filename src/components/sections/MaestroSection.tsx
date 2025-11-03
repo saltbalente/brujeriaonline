@@ -6,23 +6,23 @@ const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=%2B18392988226&text=H
 const services = [
     {
         icon: Heart,
-        title: "Amarres de Amor",
-        description: "Rituales ancestrales para fortalecer vínculos y recuperar el amor perdido"
+        title: "Amarres de Amor Efectivos",
+        description: "Rituales poderosos que REALMENTE funcionan para recuperar y mantener a tu pareja para siempre"
     },
     {
         icon: Sparkle,
-        title: "Limpiezas Espirituales",
-        description: "Eliminación de energías negativas y bloqueos que afectan tu vida"
+        title: "Limpiezas Espirituales Profundas",
+        description: "Destruye toda energía negativa, maldiciones y brujería que te están bloqueando"
     },
     {
         icon: ShieldCheck,
-        title: "Protección Espiritual",
-        description: "Escudos energéticos para proteger tu amor y tu bienestar"
+        title: "Protección Contra Enemigos",
+        description: "Blindaje espiritual total contra personas que quieren hacerte daño o separarte"
     },
     {
         icon: Moon,
-        title: "Rituales Especializados",
-        description: "Ceremonias personalizadas según tu situación específica"
+        title: "Rituales Personalizados",
+        description: "Ceremonias diseñadas específicamente para TU caso con garantía de resultados"
     }
 ]
 
@@ -41,29 +41,39 @@ export default function MaestroSection() {
             <div className="max-w-7xl mx-auto px-4 relative z-10">
                 <div className="text-center mb-12">
                     <h2 className="section-title text-3xl md:text-5xl mb-4 text-foreground">
-                        Sabiduría Ancestral A Tu Alcance
+                        Poder Ancestral Que FUNCIONA De Verdad
                     </h2>
-                    <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-                        Nuestros maestros espirituales combinan la tradición de brujos de Catemaco, chamanes de Nicaragua y curanderos con décadas de experiencia en magia y brujería para el amor
+                    <p className="text-lg md:text-xl text-secondary font-semibold max-w-3xl mx-auto">
+                        Maestros reconocidos internacionalmente con resultados COMPROBADOS en amarres de amor y protección espiritual
                     </p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
-                    <div className="bg-card/70 backdrop-blur-sm p-8 rounded-lg border border-border">
-                        <h3 className="section-title text-2xl mb-4 text-card-foreground">¿Quiénes Somos?</h3>
-                        <p className="text-card-foreground leading-relaxed mb-4 font-serif">
-                            Somos un colectivo de maestros espiritistas que han dedicado su vida al estudio de las artes ancestrales. Cada consulta se realiza con profundo respeto a las tradiciones milenarias.
+                    <div className="bg-card/70 backdrop-blur-sm p-8 rounded-lg border-2 border-accent/50">
+                        <h3 className="section-title text-2xl mb-4 text-card-foreground">⭐ Maestros Espirituales Certificados</h3>
+                        <p className="text-card-foreground leading-relaxed mb-4 font-serif font-semibold">
+                            NO somos charlatanes. Somos maestros con DÉCADAS de experiencia en brujería real, amarres efectivos y trabajos espirituales que SÍ funcionan.
                         </p>
-                        <p className="text-card-foreground leading-relaxed font-serif">
-                            Nuestra experiencia abarca desde rituales de brujería tradicional hasta ceremonias especializadas de amarres de parejas, siempre con ética y responsabilidad.
+                        <p className="text-card-foreground leading-relaxed font-serif font-semibold">
+                            Tradición directa de Catemaco, San Luis Potosí y Nicaragua. Rituales probados por generaciones que han reunido a miles de parejas.
                         </p>
                     </div>
                     
-                    <div className="rounded-lg overflow-hidden border border-border">
+                    <div className="rounded-lg overflow-hidden border-2 border-accent/50 shadow-2xl">
                         <img 
                             src="https://i.pinimg.com/736x/fc/fa/ca/fcfacad064663c2d412976ba6e3fefb0.jpg"
-                            alt="Maestro espiritual"
+                            alt="Maestro espiritual realizando ritual"
                             className="w-full h-full object-cover"
+                        />
+                    </div>
+                </div>
+                
+                <div className="max-w-5xl mx-auto mb-12">
+                    <div className="rounded-lg overflow-hidden border-2 border-accent/50 shadow-2xl">
+                        <img 
+                            src="https://i.pinimg.com/1200x/8d/27/35/8d2735c0e2d7f33e59e7b7f14b04dc8b.jpg"
+                            alt="Altar espiritual con santos"
+                            className="w-full h-auto object-cover"
                         />
                     </div>
                 </div>
@@ -82,7 +92,7 @@ export default function MaestroSection() {
                 
                 <div className="mb-12">
                     <h3 className="section-title text-2xl md:text-3xl text-center mb-8 text-foreground">
-                        Nuestros Servicios Espirituales
+                        💫 Servicios Espirituales Con Resultados Garantizados
                     </h3>
                     
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -112,12 +122,15 @@ export default function MaestroSection() {
                     <Button 
                         asChild
                         size="lg"
-                        className="glow-accent bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-8 py-6 h-auto font-semibold"
+                        className="pulse-glow bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-10 py-8 h-auto font-bold shadow-2xl animate-pulse"
                     >
                         <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                            Consulta Gratis con Maestro
+                            🔥 QUIERO MI CONSULTA GRATIS AHORA
                         </a>
                     </Button>
+                    <p className="mt-4 text-secondary font-bold text-lg">
+                        ⚡ Respuesta Inmediata - Disponible 24/7
+                    </p>
                 </div>
             </div>
         </section>

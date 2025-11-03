@@ -5,25 +5,25 @@ const testimonials = [
     {
         name: "María G.",
         location: "Miami, FL",
-        text: "Después de 6 meses separados, mi esposo volvió a casa. El Maestro me ayudó cuando ya había perdido toda esperanza. Eternamente agradecida.",
+        text: "Mi esposo volvió después de 6 meses con otra mujer. El amarre funcionó en solo 2 semanas. Ahora está más enamorado que nunca. ¡NO LO PUEDO CREER! Estos maestros son REALES.",
         rating: 5
     },
     {
         name: "Carlos R.",
         location: "Los Angeles, CA",
-        text: "Los síntomas de brujería que sufría desaparecieron después de la limpieza espiritual. Ahora mi vida ha cambiado completamente para bien.",
+        text: "Me estaban haciendo brujería fuerte. Después de la limpieza TODO cambió. Mi negocio mejoró, mi salud volvió. Son brujos con poder REAL, no charlatanes.",
         rating: 5
     },
     {
         name: "Ana L.",
         location: "Houston, TX",
-        text: "Consulté sobre amarres para mi pareja y el resultado fue increíble. El ritual de amor funcionó mejor de lo que esperaba. Son brujos efectivos de verdad.",
+        text: "Mi pareja me dejó por su ex. Hice el amarre y en 3 semanas regresó rogando perdón. El ritual funcionó EXACTAMENTE como me dijeron. 100% recomendado.",
         rating: 5
     },
     {
         name: "Roberto M.",
         location: "Nueva York, NY",
-        text: "Busqué curanderos espirituales buenos por mucho tiempo. Aquí encontré la ayuda real que necesitaba. Los hechizos de brujería realmente funcionan.",
+        text: "Probé con 5 brujos antes. NINGUNO funcionó. Estos maestros me ayudaron de verdad. Recuperé a mi esposa y ahora tenemos un matrimonio más fuerte. ¡GRACIAS!",
         rating: 5
     }
 ]
@@ -43,10 +43,10 @@ export default function TestimonialsSection() {
             <div className="max-w-7xl mx-auto px-4 relative z-10">
                 <div className="text-center mb-12">
                     <h2 className="section-title text-3xl md:text-5xl mb-4 text-foreground">
-                        Testimonios Reales
+                        🌟 Casos Reales - Resultados Reales
                     </h2>
-                    <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-                        Miles de personas ya han encontrado solución a sus problemas. Lee lo que dicen quienes han confiado en nuestra ayuda espiritual
+                    <p className="text-lg md:text-xl text-secondary font-semibold max-w-3xl mx-auto">
+                        Lee lo que dicen personas que RECUPERARON a sus parejas gracias a nuestros rituales
                     </p>
                 </div>
                 
@@ -85,12 +85,12 @@ export default function TestimonialsSection() {
                     ))}
                 </div>
                 
-                <div className="text-center mt-12 p-6 bg-accent/10 border border-accent/30 rounded-lg max-w-3xl mx-auto">
-                    <p className="text-lg text-foreground font-medium font-serif">
-                        Estos son solo algunos de los cientos de casos exitosos que hemos ayudado
+                <div className="text-center mt-12 p-8 bg-accent/20 border-2 border-accent rounded-lg max-w-3xl mx-auto">
+                    <p className="text-xl text-foreground font-bold font-serif mb-2">
+                        ✅ +1,500 Parejas Reunidas En El Último Año
                     </p>
-                    <p className="text-muted-foreground mt-2 font-serif">
-                        Tu historia de éxito puede ser la siguiente
+                    <p className="text-lg text-accent font-bold mt-2 font-serif">
+                        TÚ puedes ser el siguiente caso de éxito
                     </p>
                 </div>
             </div>

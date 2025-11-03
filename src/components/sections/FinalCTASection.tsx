@@ -21,28 +21,28 @@ export default function FinalCTASection() {
                 </div>
                 
                 <h2 className="section-title text-3xl md:text-5xl mb-6 text-foreground">
-                    No Sufras Más En Silencio
+                    ⏰ Cada Minuto Que Pasa, Más Se Aleja Tu Amor
                 </h2>
                 
-                <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed font-serif">
-                    La ayuda espiritual que buscas está a un clic de distancia. Maestros con décadas de experiencia en brujería real están listos para escucharte.
+                <p className="text-xl md:text-2xl text-secondary font-bold mb-8 leading-relaxed font-serif">
+                    NO dejes que otra persona ocupe tu lugar. Maestros con 20+ años de experiencia están LISTOS para ayudarte AHORA MISMO.
                 </p>
                 
-                <div className="bg-card/70 backdrop-blur-sm border border-border rounded-lg p-8 mb-8">
+                <div className="bg-card/70 backdrop-blur-sm border-2 border-accent rounded-lg p-8 mb-8">
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-6">
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-accent mb-1">+1000</div>
-                            <div className="text-sm text-muted-foreground">Casos Exitosos</div>
+                            <div className="text-5xl font-bold text-accent mb-1">+1,500</div>
+                            <div className="text-sm text-muted-foreground font-semibold">Parejas Reunidas</div>
                         </div>
                         <div className="hidden md:block w-px h-12 bg-border"></div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-accent mb-1">20+</div>
-                            <div className="text-sm text-muted-foreground">Años de Experiencia</div>
+                            <div className="text-5xl font-bold text-accent mb-1">20+</div>
+                            <div className="text-sm text-muted-foreground font-semibold">Años de Experiencia</div>
                         </div>
                         <div className="hidden md:block w-px h-12 bg-border"></div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-accent mb-1">100%</div>
-                            <div className="text-sm text-muted-foreground">Confidencial</div>
+                            <div className="text-5xl font-bold text-accent mb-1">24/7</div>
+                            <div className="text-sm text-muted-foreground font-semibold">Disponibilidad</div>
                         </div>
                     </div>
                 </div>
@@ -50,15 +50,18 @@ export default function FinalCTASection() {
                 <Button 
                     asChild
                     size="lg"
-                    className="pulse-glow bg-accent hover:bg-accent/90 text-accent-foreground text-2xl px-10 py-8 h-auto font-bold mb-4"
+                    className="pulse-glow bg-accent hover:bg-accent/90 text-accent-foreground text-2xl px-12 py-10 h-auto font-black mb-4 shadow-2xl animate-pulse"
                 >
                     <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                        Obtener Mi Consulta Gratis Ahora
+                        🚨 CONSULTA GRATIS - CLICK AQUÍ 🚨
                     </a>
                 </Button>
                 
-                <p className="text-sm text-muted-foreground">
-                    ✓ Primera consulta gratis ✓ Respuesta inmediata ✓ Total confidencialidad
+                <p className="text-base text-secondary font-bold mb-2">
+                    ✅ Primera consulta GRATIS ✅ Respuesta en MINUTOS ✅ 100% Privado
+                </p>
+                <p className="text-lg text-accent font-bold animate-pulse">
+                    ⚠️ PLAZAS LIMITADAS - No esperes más
                 </p>
             </div>
         </section>

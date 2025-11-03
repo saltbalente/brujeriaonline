@@ -24,32 +24,32 @@ export default function HeroSection() {
                 </div>
                 
                 <h1 className="hero-title text-4xl md:text-6xl lg:text-7xl mb-6 text-foreground leading-tight">
-                    ¿Sientes Que Has Perdido El Amor De Tu Vida?
+                    ¿El Amor De Tu Vida Te Abandonó Y No Sabes Por Qué?
                 </h1>
                 
-                <p className="text-xl md:text-2xl mb-4 text-muted-foreground max-w-3xl mx-auto leading-relaxed font-serif">
-                    Maestros espirituales con sabiduría ancestral te ayudan a recuperar lo que es tuyo
+                <p className="text-xl md:text-2xl mb-4 text-secondary font-semibold max-w-3xl mx-auto leading-relaxed font-serif">
+                    Recupera a tu pareja con rituales ancestrales que han funcionado por generaciones
                 </p>
                 
-                <div className="inline-flex items-center gap-2 bg-accent/20 px-6 py-3 rounded-full mb-8 border border-accent/30">
-                    <Sparkle size={20} weight="fill" className="text-accent" />
-                    <span className="text-accent font-semibold text-lg">Primera Consulta Completamente Gratis</span>
+                <div className="inline-flex items-center gap-2 bg-accent/30 px-6 py-3 rounded-full mb-8 border-2 border-accent pulse-glow">
+                    <Sparkle size={24} weight="fill" className="text-accent" />
+                    <span className="text-accent font-bold text-xl">¡Primera Consulta 100% GRATIS!</span>
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <Button 
                         asChild
                         size="lg"
-                        className="glow-accent bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-8 py-6 h-auto font-semibold"
+                        className="pulse-glow bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-10 py-8 h-auto font-bold shadow-2xl animate-pulse"
                     >
                         <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                            Hablar con Maestro Ahora
+                            💬 Hablar con Maestro AHORA
                         </a>
                     </Button>
                 </div>
                 
-                <p className="mt-6 text-sm text-muted-foreground">
-                    Respuesta inmediata • Consulta confidencial • Sin compromiso
+                <p className="mt-6 text-base text-secondary font-semibold">
+                    ⚡ Respuesta en Menos de 5 Minutos • 🔒 100% Confidencial • ✨ Sin Compromiso
                 </p>
             </div>
         </section>
