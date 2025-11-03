@@ -17,15 +17,12 @@ export default function HeroSection() {
             >
                 <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/85 to-background/95" />
             </div>
-            
             <div className="relative z-10 max-w-5xl mx-auto px-4 py-20 text-center">
                 <div className="flex justify-center mb-6">
                     <Sparkle size={48} weight="fill" className="text-accent animate-pulse" />
                 </div>
                 
-                <h1 className="hero-title text-4xl md:text-6xl lg:text-7xl mb-6 text-foreground leading-tight">
-                    ¿El Amor De Tu Vida Te Abandonó Y No Sabes Por Qué?
-                </h1>
+                <h1 className="hero-title text-4xl md:text-6xl lg:text-7xl mb-6 leading-tight font-serif font-black text-gray-50">¿El Amor De Tu Vida Te Abandonó Y No Sabes Por Qué?</h1>
                 
                 <p className="text-xl md:text-2xl mb-4 text-secondary font-semibold max-w-3xl mx-auto leading-relaxed font-serif">
                     Recupera a tu pareja con rituales ancestrales que han funcionado por generaciones
@@ -53,5 +50,5 @@ export default function HeroSection() {
                 </p>
             </div>
         </section>
-    )
+    );
 }
