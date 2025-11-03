@@ -63,7 +63,7 @@ export default function TestimonialsSection() {
                             </div>
                             
                             <div className="mb-4">
-                                <p className="text-card-foreground leading-relaxed italic">
+                                <p className="text-card-foreground leading-relaxed italic font-serif">
                                     "{testimonial.text}"
                                 </p>
                             </div>
@@ -86,10 +86,10 @@ export default function TestimonialsSection() {
                 </div>
                 
                 <div className="text-center mt-12 p-6 bg-accent/10 border border-accent/30 rounded-lg max-w-3xl mx-auto">
-                    <p className="text-lg text-foreground font-medium">
+                    <p className="text-lg text-foreground font-medium font-serif">
                         Estos son solo algunos de los cientos de casos exitosos que hemos ayudado
                     </p>
-                    <p className="text-muted-foreground mt-2">
+                    <p className="text-muted-foreground mt-2 font-serif">
                         Tu historia de éxito puede ser la siguiente
                     </p>
                 </div>

@@ -24,7 +24,7 @@ export default function FinalCTASection() {
                     No Sufras Más En Silencio
                 </h2>
                 
-                <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
+                <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed font-serif">
                     La ayuda espiritual que buscas está a un clic de distancia. Maestros con décadas de experiencia en brujería real están listos para escucharte.
                 </p>
                 

@@ -51,10 +51,10 @@ export default function MaestroSection() {
                 <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
                     <div className="bg-card/70 backdrop-blur-sm p-8 rounded-lg border border-border">
                         <h3 className="section-title text-2xl mb-4 text-card-foreground">¿Quiénes Somos?</h3>
-                        <p className="text-card-foreground leading-relaxed mb-4">
+                        <p className="text-card-foreground leading-relaxed mb-4 font-serif">
                             Somos un colectivo de maestros espiritistas que han dedicado su vida al estudio de las artes ancestrales. Cada consulta se realiza con profundo respeto a las tradiciones milenarias.
                         </p>
-                        <p className="text-card-foreground leading-relaxed">
+                        <p className="text-card-foreground leading-relaxed font-serif">
                             Nuestra experiencia abarca desde rituales de brujería tradicional hasta ceremonias especializadas de amarres de parejas, siempre con ética y responsabilidad.
                         </p>
                     </div>

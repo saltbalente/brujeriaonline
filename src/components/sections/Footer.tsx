@@ -9,13 +9,13 @@ export default function Footer() {
                         Aviso Legal Importante
                     </h3>
                     <div className="bg-muted/30 p-6 rounded-lg border border-border max-w-4xl mx-auto">
-                        <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                        <p className="text-sm text-muted-foreground leading-relaxed mb-3 font-serif">
                             <strong className="text-foreground">Disclaimer:</strong> Los servicios espirituales ofrecidos son complementarios y no sustituyen en ningún caso la atención médica, psicológica o legal profesional. Los resultados pueden variar de persona a persona según múltiples factores individuales.
                         </p>
-                        <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                        <p className="text-sm text-muted-foreground leading-relaxed mb-3 font-serif">
                             Los testimonios presentados reflejan experiencias personales y no constituyen garantía de resultados específicos. Cada caso es único y se aborda de manera individual.
                         </p>
-                        <p className="text-sm text-muted-foreground leading-relaxed">
+                        <p className="text-sm text-muted-foreground leading-relaxed font-serif">
                             Todos los rituales y ceremonias se realizan con el máximo respeto a las tradiciones espirituales y con el consentimiento explícito de los consultantes. Operamos con transparencia y ética profesional.
                         </p>
                     </div>

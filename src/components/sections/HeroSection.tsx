@@ -27,7 +27,7 @@ export default function HeroSection() {
                     ¿Sientes Que Has Perdido El Amor De Tu Vida?
                 </h1>
                 
-                <p className="text-xl md:text-2xl mb-4 text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+                <p className="text-xl md:text-2xl mb-4 text-muted-foreground max-w-3xl mx-auto leading-relaxed font-serif">
                     Maestros espirituales con sabiduría ancestral te ayudan a recuperar lo que es tuyo
                 </p>
                 

@@ -52,10 +52,10 @@ export default function ProblemsSection() {
                 </div>
                 
                 <div className="text-center mt-12">
-                    <p className="text-xl text-foreground font-medium">
+                    <p className="text-xl text-foreground font-medium font-serif">
                         Si respondiste "Sí" a alguna pregunta, estás en el lugar correcto
                     </p>
-                    <p className="text-lg text-muted-foreground mt-2">
+                    <p className="text-lg text-muted-foreground mt-2 font-serif">
                         Maestros espiritistas con décadas de experiencia pueden ayudarte
                     </p>
                 </div>
