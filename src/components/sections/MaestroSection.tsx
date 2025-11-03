@@ -71,7 +71,7 @@ export default function MaestroSection() {
                 <div className="max-w-5xl mx-auto mb-12">
                     <div className="rounded-lg overflow-hidden border-2 border-accent/50 shadow-2xl">
                         <img 
-                            src="https://i.pinimg.com/1200x/8d/27/35/8d2735c0e2d7f33e59e7b7f14b04dc8b.jpg"
+                            src="https://i.pinimg.com/1200x/1c/f6/99/1cf6995c3e831c280f22d2ce2fef0587.jpg"
                             alt="Altar espiritual con santos"
                             className="w-full h-auto object-cover"
                         />
