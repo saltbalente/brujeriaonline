@@ -91,12 +91,12 @@ El diseño debe evocar misticismo y espiritualidad con profesionalismo y respeto
 
 ## Font Selection
 
-Las tipografías deben transmitir elegancia espiritual y misterio sin sacrificar legibilidad. Una combinación de serif clásico para títulos (evoca tradición ancestral) y sans-serif moderno para cuerpo (facilita lectura y profesionalismo).
+Las tipografías deben transmitir elegancia espiritual y misterio sin sacrificar legibilidad. MedievalSharp para el hero title (estilo místico/gótico similar a Netherworld), Cormorant Unicase para otros headings (elegante y espiritual), e Inter para cuerpo (facilita lectura y profesionalismo).
 
 - **Typographic Hierarchy**:
-  - H1 (Titular Hero): Cinzel Bold / 48px / letter-spacing: 0.02em - Evoca antigüedad y sabiduría
-  - H2 (Secciones): Cinzel SemiBold / 36px / letter-spacing: 0.01em
-  - H3 (Subtítulos): Cinzel Medium / 24px / letter-spacing: 0.01em
+  - H1 (Titular Hero): MedievalSharp Regular / 48px / letter-spacing: 0.03em - Estilo místico/gótico con text-shadow
+  - H2 (Secciones): Cormorant Unicase SemiBold / 36px / letter-spacing: 0.02em
+  - H3 (Subtítulos): Cormorant Unicase Medium / 24px / letter-spacing: 0.02em
   - Body (Párrafos): Inter Regular / 18px / line-height: 1.7 - Legibilidad moderna
   - CTA Buttons: Inter SemiBold / 20px / letter-spacing: 0.02em
   - Testimonials: Inter Italic / 16px / line-height: 1.6
