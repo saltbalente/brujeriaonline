@@ -68,6 +68,18 @@ export default function MaestroSection() {
                     </div>
                 </div>
                 
+                <div className="max-w-5xl mx-auto mb-12">
+                    <div className="relative w-full rounded-lg overflow-hidden border border-border" style={{ paddingBottom: '177.78%' }}>
+                        <iframe
+                            className="absolute top-0 left-0 w-full h-full"
+                            src="https://www.youtube.com/embed/EYugSE654tk?autoplay=1&mute=1&loop=1&playlist=EYugSE654tk&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&disablekb=1&fs=0"
+                            title="Video espiritual"
+                            allow="autoplay; encrypted-media"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+                
                 <div className="mb-12">
                     <h3 className="section-title text-2xl md:text-3xl text-center mb-8 text-foreground">
                         Nuestros Servicios Espirituales
