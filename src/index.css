@@ -7,6 +7,12 @@
   }
 }
 
+@layer base {
+  html, body {
+    font-family: var(--font-sans);
+  }
+}
+
 :root {
   --background: oklch(0.15 0.02 285);
   --foreground: oklch(0.95 0.05 65);
@@ -38,9 +44,11 @@
   
   --radius: 1rem;
   
-  --font-sans: Cabin;
+  --font-sans: Marcellus;
   
-  --font-serif: Cormorant;
+  --font-serif: Marcellus;
+  
+  --font-mono: Marcellus;
 }
 
 @theme {
@@ -73,23 +81,23 @@
 }
 
 body {
-  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: var(--font-sans);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cormorant Unicase', serif;
+  font-family: var(--font-sans);
 }
 
 .font-serif {
-  font-family: 'Cormorant Unicase', serif;
+  font-family: var(--font-serif);
 }
 
 p {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
 }
 
 .hero-title {
-  font-family: 'MedievalSharp', serif;
+  font-family: var(--font-sans);
   font-weight: 400;
   letter-spacing: 0.03em;
   text-shadow: 0 2px 8px oklch(0.65 0.20 40 / 0.3);
@@ -97,7 +105,7 @@ p {
 }
 
 .section-title {
-  font-family: 'Cormorant Unicase', serif;
+  font-family: var(--font-sans);
   font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 1.3;
